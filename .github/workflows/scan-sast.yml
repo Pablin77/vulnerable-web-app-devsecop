@@ -1,7 +1,9 @@
 name: sast-scan
 
 on:
-  workflow_call:
+  push:
+    branches:
+      - master
 
 jobs:
   SECRET:
