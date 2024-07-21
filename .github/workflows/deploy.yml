@@ -1,4 +1,4 @@
-name: Deploy Vulnerable Application                                  # workflow name
+name: Deploy and DAST scan                                  # workflow name
 
 on:
   push:
